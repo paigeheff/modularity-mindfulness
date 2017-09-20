@@ -8,4 +8,45 @@ html {
 
 nav a {
   text-decoration: none;
+  color: #b64c6e;
+  border-bottom: solid 2px #d89fb0;
+}
+
+nav a:hover {
+  color: #860927;
+}
+
+.btn {
+  background-color: white;
+  border-color: #d89fb0;
+
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border: solid 2px #d89fb0;
+  color: #b64c6e;
+}
+
+.btn-ghost:hover {
+  background-color: #d89fb0;
+  border-color: #b64c6e;
+  color: #860927;
+}
+
+.btn-light {
+  background-color: white;
+  border-color: #d89fb0;
+  color: #860927;
+}
+
+footer {
+  border-top: 1px solid #e2e2e2;
+  color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
